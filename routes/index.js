@@ -2,9 +2,6 @@
 
 const express = require('express');
 var router = express.Router();
-// por si queremos usar el ejercicio de la tabla de multiplicar, línea 87
-// const fs = require ('fs');
-
 
 // configurar callback (async / await) para controlar ruta /
 router.get('/', async (req, res) => {
